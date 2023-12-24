@@ -28,6 +28,67 @@
   color: #61dafb;
 }
 
+.password-generator {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: linear-gradient(90deg, rgba(123, 120, 188, 0.899) 0%, rgb(162, 226, 191) 36%, rgba(24, 33, 35, 0.971) 100%);
+  margin-top: 85px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  
+}
+
+button {
+  margin-top: 10px;
+  appearance: none;
+  background-color: #3c3737;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -4px 6px inset;
+  box-sizing: border-box;
+  color: #d6c5c5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+button:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+  color: black;
+  }
+  
+  button:active {
+  transform: scale(1.025);
+  }
+  
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
